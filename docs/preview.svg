@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="Cyber Profile 四层模型：L1 情境 → L2 行为 → L3 认知 → L4 核心">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="6%" r="78%">
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f0883e" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#f0883e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="640" fill="#0d1117"/>
+  <rect width="1280" height="640" fill="url(#glow)"/>
+
+  <!-- 标题 -->
+  <text x="640" y="80" text-anchor="middle" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif" font-size="45" font-weight="700" fill="#e6edf3" letter-spacing="1.5">Cyber Profile</text>
+  <text x="640" y="121" text-anchor="middle" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif" font-size="20" fill="#8b949e">让 AI 真正认识你 —— 记住的不是你说过什么，而是你为什么这样选</text>
+  <line x1="430" y1="150" x2="850" y2="150" stroke="#30363d" stroke-width="1"/>
+
+  <!-- L1 情境：散点 -->
+  <g fill="#58a6ff">
+    <circle cx="214" cy="214" r="5" opacity="0.90"/>
+    <circle cx="246" cy="198" r="4" opacity="0.70"/>
+    <circle cx="266" cy="230" r="6" opacity="0.85"/>
+    <circle cx="298" cy="206" r="4" opacity="0.60"/>
+    <circle cx="320" cy="238" r="5" opacity="0.75"/>
+    <circle cx="338" cy="194" r="3.5" opacity="0.60"/>
+    <circle cx="362" cy="220" r="6" opacity="0.90"/>
+    <circle cx="386" cy="200" r="4" opacity="0.70"/>
+    <circle cx="408" cy="234" r="5" opacity="0.80"/>
+    <circle cx="430" cy="196" r="3.5" opacity="0.55"/>
+    <circle cx="454" cy="218" r="6" opacity="0.85"/>
+    <circle cx="476" cy="240" r="4" opacity="0.65"/>
+    <circle cx="498" cy="204" r="5" opacity="0.75"/>
+    <circle cx="520" cy="230" r="4" opacity="0.60"/>
+    <circle cx="544" cy="210" r="5" opacity="0.80"/>
+    <circle cx="566" cy="226" r="3.5" opacity="0.55"/>
+    <circle cx="232" cy="238" r="4" opacity="0.65"/>
+    <circle cx="284" cy="188" r="3" opacity="0.50"/>
+    <circle cx="312" cy="216" r="5" opacity="0.70"/>
+    <circle cx="352" cy="242" r="3.5" opacity="0.55"/>
+    <circle cx="400" cy="190" r="3" opacity="0.50"/>
+    <circle cx="442" cy="244" r="3.5" opacity="0.60"/>
+    <circle cx="492" cy="188" r="3" opacity="0.50"/>
+    <circle cx="534" cy="244" r="3.5" opacity="0.60"/>
+  </g>
+
+  <!-- 箭头 1 -->
+  <line x1="390" y1="252" x2="390" y2="282" stroke="#484f58" stroke-width="2"/>
+  <path d="M383 280 L397 280 L390 294 Z" fill="#484f58"/>
+
+  <!-- L2 行为：短条 -->
+  <g stroke="#3fb950" stroke-width="4" stroke-linecap="round" opacity="0.85">
+    <line x1="240" y1="308" x2="300" y2="308"/>
+    <line x1="316" y1="308" x2="356" y2="308"/>
+    <line x1="372" y1="308" x2="436" y2="308"/>
+    <line x1="452" y1="308" x2="492" y2="308"/>
+    <line x1="508" y1="308" x2="548" y2="308"/>
+    <line x1="268" y1="330" x2="300" y2="330" opacity="0.6"/>
+    <line x1="398" y1="330" x2="436" y2="330" opacity="0.6"/>
+    <line x1="480" y1="330" x2="514" y2="330" opacity="0.6"/>
+  </g>
+
+  <!-- 箭头 2 -->
+  <line x1="390" y1="346" x2="390" y2="376" stroke="#484f58" stroke-width="2"/>
+  <path d="M383 374 L397 374 L390 388 Z" fill="#484f58"/>
+
+  <!-- L3 认知：更少更长 -->
+  <g stroke="#a371f7" stroke-width="4.5" stroke-linecap="round" opacity="0.9">
+    <line x1="290" y1="405" x2="370" y2="405"/>
+    <line x1="388" y1="405" x2="450" y2="405"/>
+    <line x1="466" y1="405" x2="506" y2="405"/>
+    <line x1="310" y1="427" x2="350" y2="427" opacity="0.6"/>
+  </g>
+
+  <!-- 箭头 3 -->
+  <line x1="390" y1="442" x2="390" y2="472" stroke="#484f58" stroke-width="2"/>
+  <path d="M383 470 L397 470 L390 484 Z" fill="#484f58"/>
+
+  <!-- L4 核心：一点 -->
+  <circle cx="390" cy="502" r="34" fill="url(#core)"/>
+  <circle cx="390" cy="502" r="20" fill="#f0883e" opacity="0.22"/>
+  <circle cx="390" cy="502" r="9" fill="#f0883e"/>
+
+  <!-- 右侧说明 -->
+  <g font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">
+    <text x="660" y="200" font-size="23" font-weight="600">
+      <tspan fill="#58a6ff">L1</tspan><tspan dx="12" fill="#e6edf3">情境</tspan>
+    </text>
+    <text x="660" y="228" font-size="15.5" fill="#8b949e">发生了什么 —— 自动记，末尾一行回执</text>
+
+    <text x="660" y="300" font-size="23" font-weight="600">
+      <tspan fill="#3fb950">L2</tspan><tspan dx="12" fill="#e6edf3">行为</tspan>
+    </text>
+    <text x="660" y="328" font-size="15.5" fill="#8b949e">你重复在做什么 —— ≥3 次 + 跨 14 天，要你签字</text>
+
+    <text x="660" y="395" font-size="23" font-weight="600">
+      <tspan fill="#a371f7">L3</tspan><tspan dx="12" fill="#e6edf3">认知</tspan>
+    </text>
+    <text x="660" y="423" font-size="15.5" fill="#8b949e">你为什么这样 —— 每月 ≥3 条 L2 + 查过反例</text>
+
+    <text x="660" y="488" font-size="23" font-weight="600">
+      <tspan fill="#f0883e">L4</tspan><tspan dx="12" fill="#e6edf3">核心</tspan>
+    </text>
+    <text x="660" y="516" font-size="15.5" fill="#8b949e">你愿意为它付什么代价 —— 只能你手写，AI 只读</text>
+  </g>
+
+  <!-- 底部 -->
+  <line x1="430" y1="562" x2="850" y2="562" stroke="#21262d" stroke-width="1"/>
+  <text x="640" y="592" text-anchor="middle" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif" font-size="14.5" fill="#6e7681">MIT License · 纯 Markdown · 零依赖 · 数据只在你硬盘上</text>
+  <text x="640" y="616" text-anchor="middle" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif" font-size="13" fill="#484f58">github.com/Coli3/cyber-profile</text>
+</svg>
