@@ -4,6 +4,8 @@
 
 ### 你的赛博档案 · 让 Agent 把你编译成一份可查、可验、会自我修正的档案
 
+*Local-first personal AI memory in plain Markdown — Obsidian as the IDE, your agent as the compiler.*
+
 [![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?logo=obsidian&logoColor=white)](https://obsidian.md)
 [![Markdown](https://img.shields.io/badge/Pure-Markdown-000?logo=markdown&logoColor=white)](#)
 [![Codex](https://img.shields.io/badge/Codex-000?logo=openai&logoColor=white)](https://openai.com/codex)
@@ -21,6 +23,12 @@
 
 > **Obsidian 是 IDE，Agent 是程序员，档案是代码库。**
 > 只不过这份代码库编译的不是项目，是你。
+
+---
+
+> **30 秒判断要不要往下读**
+> ① 你在用 Obsidian 或纯文本笔记 ｜ ② 你每天都在和 AI 聊天 ｜ ③ 你希望它记住的是"你为什么这样选"，而不只是"你在哪家公司"。
+> **三条满足两条，这套东西就是给你做的。**
 
 ---
 
@@ -271,5 +279,9 @@ mkdir -p ~/.codex/skills && cp -r "03 技能包/self-distill" ~/.codex/skills/
 - **[setup-my-iq](https://github.com/github/awesome-copilot)** —— 指针接线、托管块、四态检测、一次一问
 - **[experience-as-skill](https://github.com/polarpoint-io/experience-as-skill)** —— 抽结构不抽传记、命名框架六要素、token 预算
 - **[yourself-skill](https://github.com/notdog1998/yourself-skill)** —— 秒级纠正、版本回滚、人格五层
+
+---
+
+**如果这套东西对你有用，star 一下。** GitHub 的搜索不看你写得多好，只看有没有人标记过——那往往是别人找到它的唯一入口。
 
 [MIT](LICENSE) · 用 Markdown 写的东西，应该能一直读下去。
