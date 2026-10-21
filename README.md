@@ -2,20 +2,21 @@
 
 # Cyber Profile
 
-### 你的赛博档案 · 让 Agent 把你编译成一份可查、可验、会自我修正的档案
+### 让 AI 真正认识你 —— 记住的不是你说过什么，而是你为什么这样选
 
-*Local-first personal AI memory in plain Markdown — Obsidian as the IDE, your agent as the compiler.*
+**纯 Markdown，存在你自己硬盘上。** Obsidian 能读，Codex / WorkBuddy / Claude Code 能写。
+
+*Local-first personal AI memory in plain Markdown.*
 
 [![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?logo=obsidian&logoColor=white)](https://obsidian.md)
 [![Markdown](https://img.shields.io/badge/Pure-Markdown-000?logo=markdown&logoColor=white)](#)
 [![Codex](https://img.shields.io/badge/Codex-000?logo=openai&logoColor=white)](https://openai.com/codex)
 [![WorkBuddy](https://img.shields.io/badge/WorkBuddy-2F81F7)](#)
 [![License](https://img.shields.io/badge/License-MIT-3DA639)](#)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue)](#)
-
-**v1.0.0 · 初版** —— 目录结构、文件清单与十九个命令已冻结，此后只在兼容前提下演进。
 
 **[从这里开始 →](00%20从这里开始.md)** ｜ **[搭建规格](01%20搭建规格.md)** ｜ **[首次对话模板](02%20第一次对话模板.md)** ｜ **[示例档案](examples/me.example.md)**
+
+<sub>v1.0.0 · 目录结构、文件清单与十九个命令已冻结，此后只在兼容前提下演进</sub>
 
 </div>
 
