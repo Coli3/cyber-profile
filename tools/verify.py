@@ -9,7 +9,7 @@ Cyber Profile 搭建自检
     例：python verify.py "D:/我的档案"
 
 检查项：
-    1. 20 个 .md 文件是否齐全
+    1. 22 个 .md 文件是否齐全
     2. 16 个子目录是否齐全
     3. AGENTS.md 是否 < 8000 字符
     4. 双链 [[xxx]] 是否有对应文件（断链检查）
@@ -43,6 +43,8 @@ MD_FILES = [
     "档案 profile/纠正日志 correction-log.md",
     "档案 profile/经历 experiences.md",
     "档案 profile/自我评价待核.md",
+    "档案 profile/罗盘 compass.md",
+    "档案 profile/预测账本 predictions.md",
     "知识库 wiki/分析 analyses/自我认知偏差.md",
     "知识库 wiki/日志 log.md",
     "知识库 wiki/目录 index.md",
